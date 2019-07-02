@@ -1,4 +1,4 @@
-FROM golang:1.10
+FROM golang:1.12
 MAINTAINER rentziass@gmail.com
 RUN apt-get update
 RUN apt-get install -y python python-pip ca-certificates groff less bash git jq file curl
